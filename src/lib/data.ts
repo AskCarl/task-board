@@ -37,14 +37,18 @@ export const initialProjects: Project[] = [
   {
     id: '2',
     name: 'Sebastian World',
-    description: 'Interactive world-building project',
-    status: 'active',
+    description: 'Interactive website for Sebastian with games, photos & more!',
+    status: 'done',
+    url: 'https://sebastian-world.vercel.app',
     repoUrl: 'https://github.com/AskCarl/sebastian-world',
     color: 'bg-purple-500',
     tasks: [
-      { id: '2-1', title: 'Core world mechanics', completed: false, priority: 'high' },
-      { id: '2-2', title: 'Character system', completed: false, priority: 'medium' },
-      { id: '2-3', title: 'Initial UI design', completed: false, priority: 'medium' },
+      { id: '2-1', title: 'Math game (3rd grade level)', completed: true, priority: 'high' },
+      { id: '2-2', title: 'Photo album with family pics', completed: true, priority: 'high' },
+      { id: '2-3', title: 'Minecraft decorations', completed: true, priority: 'medium' },
+      { id: '2-4', title: 'Weather widget', completed: true, priority: 'medium' },
+      { id: '2-5', title: 'Bash Bucks reward system', completed: true, priority: 'high' },
+      { id: '2-6', title: 'Deploy to Vercel', completed: true, priority: 'high' },
     ],
   },
   {
